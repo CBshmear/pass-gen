@@ -21,7 +21,7 @@ generateBtn.addEventListener("click", writePassword);
 
 // Prompts obtaining and confirming password specs, after you press generate button
 function generatePassword () { 
-  
+  var password = "";
   var passwordLength = window.prompt ("Please enter the number of characters you want. It must be no less than 8 and no greater than 128");
   if (passwordLength < 8 || passwordLength > 128) {
     return;
