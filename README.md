@@ -8,6 +8,7 @@ User requested a randomized password generator that generates passwords from 8 t
 https://cbshmear.github.io/pass-gen/
 
 ## Mock-up
+<img width="948" alt="image" src="https://user-images.githubusercontent.com/112667575/201207644-0e65bf0d-4ea7-423f-a9d3-0b655b6c5d1d.png">
 
 ## Credits
 
