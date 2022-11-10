@@ -26,6 +26,7 @@ function generatePassword () {
   if (passwordLength < 8 || passwordLength > 128) {
     return;
   }
+ 
   window.alert("Your password will be " + passwordLength + " characters long.");
   var charSet = "";
   var hasNumbers = window.confirm ("Do you want numbers in your password?");
@@ -60,10 +61,11 @@ function generatePassword () {
   window.alert("Your password will not contain special characters.");
   }
 
-  for (var i = 0; i <= passwordLength; i++) {
+  for (var i = 0; i < passwordLength; i++) {
     var randomChar = Math.floor(Math.random() * charSet.length);
-    password += charSet.substring(randomChar, randomChar + 1);
+    password += charSet.substring(randomChar, randomChar +1);
   }
+  
   return password;
 
 }
