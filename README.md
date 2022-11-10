@@ -5,7 +5,7 @@
 User requested a randomized password generator that generates passwords from 8 to 128 characters in length. They wanted the ability to choose certain parameters regarding which characters are used in the password. ie Uppercase, Lowercase, Numbers and Special characters. The framework was done in HTML and it was styled using CSS. The logical functionality was done in Javascript. Now the user is able to generate secure passwords of varying length and varying complexity.
 
 ## Link to deployed Webpage
-
+https://cbshmear.github.io/pass-gen/
 
 ## Mock-up
 
